@@ -1,2 +1,26 @@
+# Typst outputs
 output/
 output-v*/
+
+# Temporary extraction folder
+temp_docx_extract/
+temp_docx.zip
+
+# Generated document outputs (regenerate with typst/python)
+outputs/documento-final.pdf
+outputs/documento-final.docx
+outputs/Final_Updated.docx
+
+# Unused Typst files
+abnt-template.typ
+documento-final.typ
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
